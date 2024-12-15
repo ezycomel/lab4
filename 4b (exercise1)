@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter Book Collection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Harry Potter Book Collection</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Publication Year</th>
+        <th>Genres</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Harry Potter and the Sorcerer's Stone</td>
+        <td>J.K. Rowling</td>
+        <td>1997</td>
+        <td>Fantasy, Adventure</td>
+      </tr>
+      <tr>
+        <td>Harry Potter and the Chamber of Secrets</td>
+        <td>J.K. Rowling</td>
+        <td>1998</td>
+        <td>Fantasy, Adventure</td>
+      </tr>
+      <tr>
+        <td>Harry Potter and the Prisoner of Azkaban</td>
+        <td>J.K. Rowling</td>
+        <td>1999</td>
+        <td>Fantasy, Adventure</td>
+      </tr>
+      <tr>
+        <td>Harry Potter and the Goblet of Fire</td>
+        <td>J.K. Rowling</td>
+        <td>2000</td>
+        <td>Fantasy, Adventure</td>
+      </tr>
+      <tr>
+        <td>Harry Potter and the Order of the Phoenix</td>
+        <td>J.K. Rowling</td>
+        <td>2003</td>
+        <td>Fantasy, Adventure</td>
+      </tr>
+      <tr>
+        <td>Harry Potter and the Half-Blood Prince</td>
+        <td>J.K. Rowling</td>
+        <td>2005</td>
+        <td>Fantasy, Adventure</td>
+      </tr>
+      <tr>
+        <td>Harry Potter and the Deathly Hallows</td>
+        <td>J.K. Rowling</td>
+        <td>2007</td>
+        <td>Fantasy, Adventure</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
